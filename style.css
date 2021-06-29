@@ -1,0 +1,52 @@
+input{
+    height: 108px;
+    font-size: 40px;
+    margin: 1px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 380px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 20%;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+#winnerDisplay{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.reset{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#resetBtn{
+    background: dodgerblue;
+    color: white;
+    font-size: 25px;
+    border: 2px solid dodgerblue;
+    border-radius: 5px;
+}
+
+#resetBtn:hover{
+    color: dodgerblue;
+    background: white;
+    font-size: 25px;
+    border: 2px solid dodgerblue;
+    border-radius: 5px;
+}

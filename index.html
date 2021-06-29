@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Tic Tac Toe</h1>
+    <div id="winnerDisplay"></div>
+    <div class="container">
+
+        <div class="column">
+            <input type="text" id="b1" class="b" value="" onclick="checkTurn1(); checkWinner();">
+            <input type="text" id="b4" class="b" value="" onclick="checkTurn4(); checkWinner();">
+            <input type="text" id="b7" class="b" value="" onclick="checkTurn7(); checkWinner();">
+        </div>
+
+        <div class="column">
+            <input type="text" id="b2" class="b" value="" onclick="checkTurn2(); checkWinner();">
+            <input type="text" id="b5" class="b" value="" onclick="checkTurn5(); checkWinner();">
+            <input type="text" id="b8" class="b" value="" onclick="checkTurn8(); checkWinner();">
+        </div>
+
+        <div class="column">
+            <input type="text" id="b3" class="b" value="" onclick="checkTurn3(); checkWinner();">
+            <input type="text" id="b6" class="b" value="" onclick="checkTurn6(); checkWinner();">
+            <input type="text" id="b9" class="b" value="" onclick="checkTurn9(); checkWinner();">
+        </div>
+
+    </div>
+    <div class="reset">
+        <button id="resetBtn">Reset</button>
+    </div>
+    <div class="instructions">
+        <h4>Instructions:</h4>
+        <ol>
+            <li>First player will play as Player X and second player as Player 0</li>
+            <li>Click on boxes according to your turn</li>
+        </ol>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
